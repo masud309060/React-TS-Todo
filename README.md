@@ -1,4 +1,4 @@
-## Todo App (TS React SASS)
+## Todo App (TS React)
 It's a awesome looking todo app. User can create or add his own list. And add todo task within his own list. User can delete his task after select the task. 
 
 ### Technology
@@ -7,5 +7,4 @@ It's a awesome looking todo app. User can create or add his own list. And add to
 - SASS 
 - JSX 
 
-![App-Image]()
-
+![app-image](https://raw.githubusercontent.com/masud309060/React-TS-Todo/master/public/images/todo-app-tsr.netlify.app_.png)
