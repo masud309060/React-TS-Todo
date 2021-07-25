@@ -1,0 +1,50 @@
+@import "./styles/partials/variables";
+
+.app {
+	background-color: $bg-primary;
+	min-height: 100vh;
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+@media (max-width: 1024px) {
+	.container {
+		max-width: 768px;
+	}
+}
+.todo {
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	padding-top: 2rem;
+}
+.todo_list {
+    height: fit-content;
+    position: sticky;
+    top: 0;
+	margin: 1rem;
+}
+@media (max-width: 500px) {
+	.todo_list {
+		height: fit-content;
+    	position: relative;
+	}
+	.todo {
+		flex-wrap: wrap;
+	}
+}
+.add_btn {
+	cursor: pointer;
+	transition: 0.5s;
+	&:hover {
+		transform: scale(1.2);
+	}
+}
+.todo_task {
+	background-color: $bg-white;
+	min-width: 240px;
+	max-width: 360px;
+	width: 100%;
+	margin: 1rem;
+}

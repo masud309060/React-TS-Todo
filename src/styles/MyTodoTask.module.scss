@@ -1,0 +1,33 @@
+@import './partials/variables';
+
+.my_todo_task {
+    header {
+		padding: 1.5rem 1rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: $bg-secondary;
+		h3 {
+			font-size: 1.5rem;
+			color: $color-black;
+		}
+		small {
+			color: $color-gray;
+		}
+	}
+}
+
+.todo_task_grp {
+    padding: 1.5rem 1rem;
+    font-size: 1.25rem;
+    color: $color-gray;
+    input {
+        margin-top: 1rem;
+        display: inline-block;
+    }
+    hr {
+        border-width: 1px;
+        border-color: #ddd;
+        margin-top: 0.5rem;
+    }
+}

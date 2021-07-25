@@ -1,0 +1,17 @@
+@import '../styles/partials/variables';
+
+.my_lodo_list {
+    color: $color_white;
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    ul {
+        li {
+            list-style-type: circle;
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+            margin-left: 1.25rem;
+        }
+    }
+}

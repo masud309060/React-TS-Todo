@@ -1,0 +1,32 @@
+@import '../styles/partials/variables';
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $color-light;
+      }
+    input[type="text"] {
+        background: none;
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid $color_white;
+        padding: 0.5rem 0;
+        color: $color_white;
+        margin-left: 0.5rem;
+    }
+    .add_btn {
+        border: 0;
+        background: none;
+        outline: none;
+        font-size: 2rem;
+        color: $color_white;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
