@@ -21,13 +21,29 @@
     padding: 1.5rem 1rem;
     font-size: 1.25rem;
     color: $color-gray;
-    input {
-        margin-top: 1rem;
-        display: inline-block;
+    .task_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $color-light;
+        padding-bottom: 0.5rem;
+        input {
+            margin-top: 1rem;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+        .cencel_btn {
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: .5s;
+            &:hover {
+                transform: scale(1.2);
+                color: $color-black;
+            }
+        }
     }
-    hr {
-        border-width: 1px;
-        border-color: #ddd;
-        margin-top: 0.5rem;
-    }
+}
+.delete {
+    text-decoration: line-through;
+    color: $color-light-gray;
 }
