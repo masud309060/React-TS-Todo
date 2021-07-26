@@ -65,7 +65,7 @@ function App() {
   };
 
   const deleteTask = (id: string) => {
-    setSelectedTask(taskArr => taskArr.filter(taskObj => taskObj.id !== id));
+    setTodoList(taskArr => taskArr.filter(taskObj => taskObj.id !== id));
   }
 
   return (
